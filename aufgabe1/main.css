@@ -1,0 +1,15 @@
+body{
+    height:100%;
+    margin: 0;
+    background:url('Bilder/Pfad\ 1.svg') no-repeat;
+    background-size:cover;
+    background-color:rgb(164, 200, 221,0.4);
+}
+#contact{
+    color:white;
+    padding:2em;
+    margin-top:1em;
+}
+#contact label{
+    color:white;
+}
