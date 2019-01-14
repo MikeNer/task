@@ -1,5 +1,5 @@
 function checkForm(){   
-    alert("test");
+    alert("Wir haben deine Nachricht erhalten");
     var errorMessage="";
     
 }
