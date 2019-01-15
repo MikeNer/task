@@ -1,16 +1,19 @@
 function checkForm(){   
     var inputs = document.getElementById("seminarForm").elements;
-    var x;
-    
-    for (i = 0; i < inputs.length; i++) {
-        if(inputs[i].value.length==0){
+    var iterator =0;
+    /*Loop geht jedes Element in Form Field
+      durch und checkt ob es ausgefüllt ist. 
+    */
+    for (iterator; iterator < inputs.length; i++) {
+        if(inputs[iterator].value.length==0){
             alert("Bitte alle Felder ausfüllen");
-            return
-        }else{
-            alert("Wir haben deine Nachricht erhalten");
+            return;
         }
-      
-      }
-  
-
+        if(inputs[iterator].value!=0){
+            i++;
+         }
+        }
+        if(iterator == inputs.length){
+            alert("Wir haben deine Nachricht erhalten");
+    } 
 }
